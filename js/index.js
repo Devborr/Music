@@ -14,7 +14,7 @@
 	MusicPlayer.prototype = {
 		init: function () {	//初始化
 			this.getDom();	//获取元素
-			this.getData('../mock/data.json');	//请求数据
+			this.getData('https://yuer99.github.io/Music/mock/data.json');	//请求数据
 		},
 		getDom: function () {	//获取页面里的元素
 			this.record = document.querySelector('.songImg img');	//旋转图片
